@@ -9,9 +9,9 @@ vim.opt.swapfile = false
 vim.cmd "colorscheme github_dark_dimmed"
 vim.filetype.add {
   extension = {
-    tpl = "helm",
-    nomad = "helm",
+    tpl = "python",
+    nomad = "python",
     hurl = "hurl",
-    vars = "helm",
-  },
+    vars = "python",
+  }
 }

@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   -- { import = "astrocommunity.programming-language-support.web-tools-nvim" },
-  { import = "astrocommunity.note-taking.neorg" },
+  -- { import = "astrocommunity.note-taking.neorg" },
   -- ----------------------------------------------
   -- Distraction free editing
   { import = "astrocommunity.editing-support.stickybuf-nvim" },
