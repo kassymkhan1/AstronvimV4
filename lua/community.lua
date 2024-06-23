@@ -22,8 +22,9 @@ return {
 
   -- ----------------------------------------------
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
-  { import = "astrocommunity.pack.helm" },
+  -- { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.python-ruff" },
   -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
   { import = "astrocommunity.pack.json" },
 
