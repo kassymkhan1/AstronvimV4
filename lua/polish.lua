@@ -7,17 +7,17 @@
 
 -- astrocore.toggles.notifications()
 vim.opt.wrap = true
--- Set up custom filetypes
 vim.opt.swapfile = false
+require("astrocore.toggles").notifications()
 vim.cmd "colorscheme github_dark_dimmed"
 vim.filetype.add {
   extension = {
     foo = "python",
-    tpl = "python",
-    nomad = "python",
-    hcl = "python",
+    tpl = "hcl",
+    nomad = "hcl",
+    hcl = "hcl",
     hurl = "hurl",
-    vars = "python",
+    vars = "hcl",
   },
   filename = {
     ["foofile"] = "fooscript",

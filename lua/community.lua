@@ -22,7 +22,9 @@ return {
 
   -- ----------------------------------------------
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
-  -- { import = "astrocommunity.pack.helm" },
+  { import = "astrocommunity.pack.helm" },
+  { import = "astrocommunity.pack.terraform" },
+  { import = "astrocommunity.pack.templ" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.python-ruff" },
   -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
@@ -33,7 +35,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   -- Treesitter: markdown & markdown_inline, Lsp: marksman, Lint/format: prettierd
   { import = "astrocommunity.pack.angular" },
-  { import = "astrocommunity.pack.yaml" },
+  -- { import = "astrocommunity.pack.yaml" },
   -- ----------------------------------------------
 
   -- ----------------------------------------------
