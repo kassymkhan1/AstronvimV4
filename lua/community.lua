@@ -76,5 +76,6 @@ return {
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.terminal-integration.nvim-unception" },
   -- { import = "astrocommunity.terminal-integration.vim-tmx-yank" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 }
