@@ -22,8 +22,9 @@ return {
 
   -- ----------------------------------------------
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
-  { import = "astrocommunity.pack.helm" },
+  -- { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.terraform" },
+  { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.templ" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.python-ruff" },
@@ -67,7 +68,7 @@ return {
   -- ----------------------------------------------
   -- Utility
   -- rich command prompt
-  { import = "astrocommunity.utility.telescope-coc-nvim" },
+  { import = "astrocommunity.utility.telescope-lazy-nvim" },
   { import = "astrocommunity.utility.noice-nvim", lazy = false },
   { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
