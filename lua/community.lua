@@ -12,11 +12,11 @@ return {
   -- { import = "astrocommunity.note-taking.neorg" },
   -- ----------------------------------------------
   -- Distraction free editing
-  { import = "astrocommunity.editing-support.stickybuf-nvim" },
+  -- { import = "astrocommunity.editing-support.stickybuf-nvim" },
   -- { import = "astrocommunity.editing-support.bigfile-nvim" },
-  -- { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
   -- { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = "astrocommunity.editing-support.zen-mode-nvim" },
+  -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
 
   -- ----------------------------------------------
 
@@ -75,6 +75,6 @@ return {
   -- Version Control
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.terminal-integration.nvim-unception" },
-  -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  -- { import = "astrocommunity.terminal-integration.vim-tmx-yank" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 }
