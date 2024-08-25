@@ -14,8 +14,8 @@ return {
   -- Distraction free editing
   -- { import = "astrocommunity.editing-support.stickybuf-nvim" },
   -- { import = "astrocommunity.editing-support.bigfile-nvim" },
-  { import = "astrocommunity.editing-support.multicursors-nvim" },
-  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
+  -- { import = "astrocommunity.editing-support.multicursors-nvim" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
   -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
 
   -- ----------------------------------------------
@@ -24,7 +24,7 @@ return {
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
   -- { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.terraform" },
-  { import = "astrocommunity.pack.full-dadbod" },
+  -- { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.templ" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.python-ruff" },
@@ -44,14 +44,14 @@ return {
   -- { import = "astrocommunity.project.project-nvim" },
 
   -- Search and replace across projects
-  { import = "astrocommunity.project.nvim-spectre" },
+  -- { import = "astrocommunity.project.nvim-spectre" },
 
   -- ----------------------------------------------
 
   -- ----------------------------------------------
   -- Programing Language support
   -- { import = "astrocommunity.programming-language-support.nvim-jqx" },
-  { import = "astrocommunity.programming-language-support.rest-nvim" },
+  -- { import = "astrocommunity.programming-language-support.rest-nvim" },
   -- ----------------------------------------------
 
   -- ----------------------------------------------
@@ -63,19 +63,19 @@ return {
   -- Themes
   -- defined in themes.lua
   -- ----------------------------------------------
-  { import = "astrocommunity.media.vim-wakatime" },
+  -- { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.git.mini-git" },
   -- ----------------------------------------------
   -- Utility
   -- rich command prompt
   { import = "astrocommunity.utility.telescope-lazy-nvim" },
   { import = "astrocommunity.utility.noice-nvim", lazy = false },
-  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
+  -- { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
   -- Version Control
   { import = "astrocommunity.recipes.vscode-icons" },
-  { import = "astrocommunity.terminal-integration.nvim-unception" },
+  -- { import = "astrocommunity.terminal-integration.nvim-unception" },
   -- { import = "astrocommunity.terminal-integration.vim-tmx-yank" },
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 }
