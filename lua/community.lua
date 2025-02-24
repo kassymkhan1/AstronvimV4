@@ -2,11 +2,11 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- ----------------------------------------------
-  { import = "astrocommunity.motion.nvim-surround" },
+  -- { import = "astrocommunity.motion.nvim-surround" },
   -- ----------------------------------------------
   -- { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  { import = "astrocommunity.editing-support.nvim-regexplainer" },
-  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  -- { import = "astrocommunity.editing-support.nvim-regexplainer" },
+  -- { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   -- { import = "astrocommunity.programming-language-support.web-tools-nvim" },
   -- { import = "astrocommunity.note-taking.neorg" },
@@ -23,11 +23,11 @@ return {
   -- ----------------------------------------------
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
   -- { import = "astrocommunity.pack.helm" },
-  { import = "astrocommunity.pack.terraform" },
+  -- { import = "astrocommunity.pack.terraform" },
   -- { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.templ" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.python-ruff" },
+  -- { import = "astrocommunity.pack.python-ruff" },
   -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
   { import = "astrocommunity.pack.json" },
 
@@ -35,7 +35,7 @@ return {
   -- Treesitter: markdown & markdown_inline, Lsp: marksman, Lint/format: prettierd
   { import = "astrocommunity.pack.markdown" },
   -- Treesitter: markdown & markdown_inline, Lsp: marksman, Lint/format: prettierd
-  { import = "astrocommunity.pack.angular" },
+  -- { import = "astrocommunity.pack.angular" },
   -- { import = "astrocommunity.pack.yaml" },
   -- ----------------------------------------------
 
@@ -64,12 +64,12 @@ return {
   -- defined in themes.lua
   -- ----------------------------------------------
   -- { import = "astrocommunity.media.vim-wakatime" },
-  { import = "astrocommunity.git.mini-git" },
+  -- { import = "astrocommunity.git.mini-git" },
   -- ----------------------------------------------
   -- Utility
   -- rich command prompt
-  { import = "astrocommunity.utility.telescope-lazy-nvim" },
-  { import = "astrocommunity.utility.noice-nvim", lazy = false },
+  -- { import = "astrocommunity.utility.telescope-lazy-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
   -- Version Control
@@ -78,4 +78,5 @@ return {
   -- { import = "astrocommunity.terminal-integration.vim-tmx-yank" },
   -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 }
